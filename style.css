@@ -4,4 +4,31 @@ main {
 
 aside {
     float: right;
+    background-color: crimson;
+    width:20%;
+    height: calc(10vh + 60vh);
+    text-align: center;
+    margin: 0;
+}
+header{
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    line-height: 2.0;
+    margin: 0;
+}
+main{
+    line-height: 1.6;
+    text-align: center;
+    height: calc(10vh + 60vh);
+    width: 80%;
+    background-color: chartreuse;
+}
+footer{
+    background-color: darkmagenta;
+    height: 120px;
+    text-align: center;
+    line-height: 2.0;
+    width: 100%;
 }
