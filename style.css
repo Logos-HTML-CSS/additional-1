@@ -6,11 +6,12 @@ aside {
     float: right;
     background-color: crimson;
     width:20%;
-    height: calc(10vh + 60vh);
+    height: calc(100vh - 200px);
     text-align: center;
     margin: 0;
 }
 header{
+    margin:0;
     background-color: blanchedalmond;
     text-align: center;
     height: 80px;
@@ -19,9 +20,10 @@ header{
     margin: 0;
 }
 main{
+    margin:0;
     line-height: 1.6;
     text-align: center;
-    height: calc(10vh + 60vh);
+    height: calc(100vh - 200px);
     width: 80%;
     background-color: chartreuse;
 }
@@ -31,4 +33,7 @@ footer{
     text-align: center;
     line-height: 2.0;
     width: 100%;
+    margin:0;
+    display:block;
+    
 }
