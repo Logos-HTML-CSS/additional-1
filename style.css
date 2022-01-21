@@ -1,7 +1,54 @@
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(159, 187, 55);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 80px;
+}
+
 main {
-    display: inline-block;
+  display: inline-block;
+  height: calc(100vh - 200px);
+  width: 80%;
+  background-color: rgb(110, 142, 247);
+  text-align: center;
+}
+
+main h2 {
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 aside {
-    float: right;
+  float: right;
+  height: calc(100vh - 200px);
+  width: 20%;
+  background-color: rgb(236, 222, 30);
+  text-align: center;
+}
+
+aside h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  background-color: rgb(38, 168, 62);
+}
+
+footer h2{
+  font-size: 30px;
+  font-weight: 700;
 }
